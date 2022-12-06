@@ -1,0 +1,103 @@
+*{margin: 0; padding: 0;}
+ul{list-style: none;}
+a{text-decoration: none; color: #222;}
+body{font-family: 'RIDIBatang'; font-size: 14px; line-height: 24px; color: #222;}
+
+/*리디바탕*/
+   @font-face {font-family: 'RIDIBatang';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.0/RIDIBatang.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;}
+
+/* 경기천년바탕 */
+    @font-face {font-family: 'GyeonggiBatang';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/GyeonggiBatang.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;}
+
+/* header */
+#header{width: 1320px; height: 192px; margin: 0 auto; position: relative; text-align: center; font-family: 'Noto Serif KR', serif; box-sizing: border-box;}
+#header ul li{float: left;}
+.header_link{position: absolute; right: 0; z-index: 99;}
+.header_link li a{display: block; padding: 10px 15px;}
+.header_link li a:hover{text-shadow: #f9c7d2 0 3px 3px;}
+.nav{position: absolute; 
+    top:20px; /*기준변경*/
+    width: 100%; height: 150px;}
+.nav li{text-align: center;  
+    float: left; width: 20%;}
+.nav li a{display: block; font-size: 25px; margin-top: 88px; padding: 30px 0; /*추가*/ }
+.nav li:nth-child(3) a{padding-top:0; margin: 0 0 20px 0;}
+.nav li a:hover{text-shadow: #f9c7d2 0 3px 3px;}
+
+/* banner */
+#banner{width: 100%; height: 850px; margin: 0 auto; background: url(../image/banner.jpg) no-repeat center top; background-size: cover;}
+
+/* text */
+#text{width: 100%; height: 420px; text-align: center; padding: 100px 0; box-sizing: border-box;}
+.px25{font-size: 25px; line-height: 35px;}
+.px60{font-size: 60px; margin: 50px 0 70px; font-family: 'Noto Serif KR', serif;}
+.px18{font-size: 18px; line-height: 28px;}
+
+
+/* con1 */
+#con1{width: 100%; height: 850px; margin: 0 auto;
+     background: url(../image/background1.jpg) no-repeat center top; 
+     font-family: "noto sans KR";
+     overflow: hidden;}
+
+.con_inner{width: 1320px; margin: 0 auto; height: 850px; 
+    text-align: center;}
+.con1_box{width: 700px; height: 850px; float: right; box-sizing: border-box; padding: 170px 30px 0 0;
+
+}
+.blod{font-weight: bold;}
+.green{font-size: 60px; font-family: 'GyeonggiBatang'; color: #416444;}
+.px50{font-size: 50px; font-family: 'GyeonggiBatang';}
+
+#con1 .px20{font-size: 20px; background-color: #909f74; margin: 50px auto 40px; padding: 10px 0; width: 450px; color: #fff; border-radius: 30px;}
+.icon2{width: 540px; height: 135px; margin: 55px 0; display: inline-block;}
+.icon2 li{float: left; width: 130px; height: 130px; border: #222 2px solid; border-radius: 50%; padding-top: 15px; box-sizing: border-box;}
+.icon2 li:nth-child(2){margin:0 75px 0;}
+table{width: 100%; height: 100px; border-collapse: collapse;}
+th{font-size: 16px; border-right: #222 1px solid; width: 25%;}
+td{border-right: #222 1px solid; width: 25%;}
+table th:nth-child(4){border: 0;}
+table td:nth-child(4){border: 0;}
+.but{display: inline-block; padding: 5px 15px; border: #222 1px solid; border-radius: 30px; margin-top: 20px;}
+.but:hover{border-top: 0; border-bottom: 0;}
+
+/* con2 */
+#con2{width: 100%; height: 850px; margin: 150px auto; 
+    background: url(../image/background2.jpg) no-repeat center top; 
+    font-family: "noto sans";
+    overflow: hidden;}
+.con2_box{float: left; width: 700px; height: 850px; box-sizing: border-box; padding: 170px 0 0 30px;}
+.pink{font-size: 60px; font-family: 'GyeonggiBatang'; color: #8b3e49;}
+#con2 .px20{font-size: 20px; background-color: #a77c82; margin: 50px auto 40px; padding: 10px 0; width: 450px; color: #fff; border-radius: 30px;}
+
+/* con3 */
+#con3{width: 100%; height: 850px; margin: 0 auto; 
+    background: url(../image/background3.jpg) no-repeat center top; font-family: "noto sans";
+    overflow: hidden;}
+.orange{font-size: 60px; font-family: 'GyeonggiBatang'; color: #d36e24;
+}
+#con3 .px20{font-size: 20px; background-color: #b18666; margin: 50px auto 40px; padding: 10px 0; width: 450px; color: #fff; border-radius: 30px;}
+
+/* Review */
+#review{width: 100%; height: 1100px; margin: 0 auto; padding-top: 100px; box-sizing: border-box; text-align: center; background: url(../image/background4.jpg) no-repeat center top;}
+.px35{font-family: "noto serif"; font-size: 35px; padding: 30px 0 50px;}
+
+
+/*footer*/
+#footer{width: 100%; height: 383px; margin: 0 auto; background: url(../image/background5.jpg) no-repeat center top;}
+.footer_inner{width: 1320px; height: 100%; margin: 0 auto; box-sizing: border-box; padding-top: 100px;}
+.icon{float: right;}
+.icon li{float: left;}
+.icon li a{display: block; margin: 0 10px; opacity: 0.5;}
+.icon li a:hover{opacity: 1;}
+.footer_text{color: #555;}
+.footer_logo img{margin-bottom: 25px;}
+
+
+.top{position:fixed; bottom:50px; right:50px; display:none;}
